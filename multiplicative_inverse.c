@@ -10,7 +10,6 @@ int i;
 for(i=0; ma[i+1]>0; i++){
 	ma[2+i]=ma[i]%ma[1+i];
 }
-printf("%d\n",i);
 for(x[i]=(i%2==0?1:0),--i;i>=0;i--){
 	x[i]=(x[i+1]*ma[i]+(i%2==0?1:-1))/ma[i+1];
 }
