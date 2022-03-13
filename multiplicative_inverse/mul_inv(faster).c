@@ -1,4 +1,4 @@
-//pi
+//this algotith is based on euclid algorith and uses less division than the previous one
 #include<stdio.h>
 unsigned long int mul_inv(unsigned long int n_mod,unsigned long int a){
 unsigned long int ret;
