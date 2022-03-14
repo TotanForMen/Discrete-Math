@@ -18,9 +18,9 @@ return ret;
 int main(){
 unsigned long int n,a;
 printf("xa=1 (mod n)\nenter n:");
-scanf("%ld",&n);
+scanf("%lu",&n);
 printf("enter a:");
-scanf("%ld",&a);
+scanf("%lu",&a);
 printf("x=%lu (mod n)", mul_inv(n,a));
 return 1;
 }
